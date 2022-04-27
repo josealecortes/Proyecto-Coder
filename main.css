@@ -1,0 +1,221 @@
+.index-body {
+    margin: auto;
+    padding: 3px;
+    display: grid;
+    grid-template-areas: 
+    "index-header index-header"
+    "index-nav index-nav"
+    "index-imagen index-imagen"
+    "index-main index-main"
+    "index-footer index-footer"
+    ;
+    grid-gap: 3px;
+    background-image: url(multimedia/bestrans-transparencia.jpg);
+    max-width: 1400px;
+    border: solid 1px lightcoral;
+}
+
+.index-header {
+    grid-area: index-header;
+    background-position: center;
+    text-align: center;
+    margin-top: auto;
+    grid-gap: 3px;
+    border: solid 5px lightsalmon;
+}
+
+.index-header img {
+    width: 150px;
+}
+
+.index-nav {
+    grid-area: index-nav;
+    grid-area: index-nav;
+    display: grid;
+    grid-template-areas: 
+    "nav1 index-nav1"
+    "nav1 index-nav1";
+    background-color: lightcyan;
+}
+
+.index-nav1 {
+    display: block;
+    list-style-type: none;
+    font-size: small;
+    text-align: left;
+    grid-area: index-nav1;
+}
+
+.nav1 {
+    display: block;
+    list-style-type: none;
+    font-size: small;
+    text-align: left;
+    grid-area: nav1;
+
+}
+
+.index-imagen {
+    grid-area: index-imagen;
+    display: none;
+    grid-area: index-imagen;
+}
+
+.index-main {
+    grid-area: index-main;
+    font-size: x-small;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: azure;
+}
+
+.index-footer {
+    grid-area: index-footer;
+    display: grid;
+    grid-template-areas: 
+    "footer1 footer2"
+    ;
+    font-size: x-small;
+    background-color: lightcyan;
+}
+.footer1 {
+    grid-area: footer1;
+    padding: 20px;
+    display: inline-block
+}
+.footer2 {
+    grid-area: footer2;
+    text-align: end;
+    font-size: x-small;
+    padding: 20px;
+    display: inline-block;
+}
+.footer1 img {
+    width: 130px;
+}
+
+.nav-nav {
+    display: flow-root;
+    list-style-type: none;
+    font-size: small;
+    grid-area: nav-nav;
+}
+.nav-nav-1 {
+    display: flow-root;
+    list-style-type: none;
+    font-size: small;
+    grid-area: nav-nav-1;
+}
+.navegacion-principal {
+    display: grid;
+    grid-template-areas: 
+    "nav-nav nav-nav-1"
+    "nav-nav nav-nav-1";
+    grid-area: navegacion-principal;
+    background-color: lightcyan;
+}
+.preguntasfrecuentes-main {
+    font-size: x-small;
+    margin: auto;
+    background-color: azure;
+}
+.clientes-main-1 {
+    grid-area: clientes-main-1;
+    grid-gap: 3px;
+    background-color: azure;
+}
+.clientes-body {
+    background-image: url(multimedia/bestrans-transparencia.jpg);
+    display: grid;
+    grid-template-areas: 
+    "index-header index-header"
+    "navegacion-principal navegacion-principal"
+    "index-imagen index-imagen"
+    "clientes-main-1 clientes-main-1"
+    "index-footer index-footer"
+    ;
+    grid-gap: 3px;
+    border: solid 1px lightcoral;
+}
+.contactos-body {
+    background-image: url(multimedia/bestrans-transparencia.jpg);
+    display: grid;
+    grid-template-areas: 
+    "index-header index-header"
+    "navegacion-principal navegacion-principal"
+    "index-imagen index-imagen"
+    "contactos-main contactos-main"
+    "index-footer index-footer"
+    ;
+    align-items: center;
+    grid-gap: 3px;
+    border: solid 1px lightcoral;
+}
+.preguntasfrecuentes-body {
+    background-image: url(multimedia/bestrans-transparencia.jpg);
+    text-align: center;
+    margin: auto;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid 1px lightcoral;
+}
+.cotizaciones-body {
+    background-image: url(multimedia/bestrans-transparencia.jpg);
+    display: grid;
+    grid-template-areas: 
+    "index-header index-header"
+    "navegacion-principal navegacion-principal"
+    "index-imagen index-imagen"
+    "cotizaciones-main cotizaciones-main"
+    "index-footer index-footer"
+    ;
+    grid-gap: 3px;
+    border: solid 1px lightcoral;
+}
+.cotizaciones-main {
+    grid-area: cotizaciones-main;
+    margin: auto;
+    background-color: azure;
+}
+.cotizaciones-main1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.clientes-main {
+    font-size: x-small;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contactos-main {
+    grid-area: contactos-main;
+    margin: auto;
+    background-color: azure;
+}
+.contactos-form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.contactos-form input {
+    width: 90%;
+    height: 30px;
+    margin: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+.contactos-form textarea {
+    width: 90%;
+    height: 200px;
+    margin: .5rem; 
+}
+
+
