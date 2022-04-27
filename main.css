@@ -10,7 +10,7 @@
     "index-footer index-footer"
     ;
     grid-gap: 3px;
-    background-image: url(multimedia/bestrans-transparencia.jpg);
+    background-image: url(multimedia./bestrans-transparencia.jpg);
     max-width: 1400px;
     border: solid 1px lightcoral;
 }
@@ -112,7 +112,7 @@
     "nav-nav nav-nav-1"
     "nav-nav nav-nav-1";
     grid-area: navegacion-principal;
-    background: linear-gradient(90deg, rgba(187,219,226,1) 0%, rgbaz(117,221,181,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(187,219,226,1) 0%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 
@@ -358,12 +358,20 @@
         margin-right: 10px;
         font-size: x-large;
         text-align: center;
+        transition: 0.3s;
+    }
+    .nav-nav:hover {
+        font-size: xx-large;
     }
     .nav-nav-1 {
         margin-left: 10px;
         margin-right: 10px;
         font-size: x-large;
         text-align: center;
+        transition: 0.3s;
+    }
+    .nav-nav-1:hover {
+        font-size: xx-large;
     }
     .index-main {
         font-size: medium;
