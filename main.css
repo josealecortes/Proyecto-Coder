@@ -10,7 +10,7 @@
     "index-footer index-footer"
     ;
     grid-gap: 3px;
-    background-image: url(multimedia/bestrans-transparencia.jpg);
+    background-image: url(./multimedia/bestrans-transparencia.jpg);
     max-width: 1400px;
     border: solid 1px lightcoral;
 }
